@@ -1,0 +1,152 @@
+/* Reset some default styles */
+]/* General styles for both pages */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styles specific to index.html */
+.landing-page {
+     background-image: url('https://img.freepik.com/free-vector/realistic-makeup-background_23-2149373139.jpg'); /* URL of your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #8B4513;
+    position: relative;
+}
+.landing-page .welcome-text {
+   
+    padding: 20px;
+    border-radius: 10px;
+}
+.landing-page .welcome-text h1 {
+    font-size: 6em;
+    margin: 0 0 20px;
+    font-family: cursive; /* Change font to Courier New */
+    color: rgb(86, 135, 167); /* Change text color to gold */
+}
+.landing-page .welcome-text h2 {
+    font-size: 2em;
+    margin: 0 0 20px;
+    font-family: sans-serif; /* Change font to Courier New */
+    color: rgb(159, 85, 177) ; /* Change text color to gold */
+}
+.landing-page .welcome-text button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #9a5b83; /* Tomato background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.landing-page .welcome-text button:hover {
+    background-color: #645fa8; /* Darker tomato color on hover */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e8d2ee;
+}
+
+.c1{
+    background-image: url('https://img.freepik.com/premium-photo/nest-with-small-eggs-pink-tulips-easter-holiday-greeting-card-spring-season_738732-3763.jpg?ga=GA1.1.844471603.1720711098&semt=ais_user');
+    background-size: cover; /* Cover the entire element */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center center; /* Center the background image */
+  /* Additional styles */
+  width: 100%; /* Example width */
+  height: 100%;
+  filter:blur(20);
+  object-fit: cover;
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+main {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    isplay: block; /* Ensure the container is displayed as a block */
+    overflow: hidden;
+    border-width: 20%;
+    border: 1px solid  rgba(29, 27, 27, 0.358);
+    
+}
+.text, .image {
+    float: left; /* Float both text and image to the left */
+  }
+.text{
+    flex: 1; /* Allow text div to grow and shrink as needed */
+    width: 50%; /* Set the width of text column */
+    padding: 50px; /* Adjust padding as needed */
+    box-sizing: border-box;
+}
+
+.image{
+    flex: 1; /* Allow text div to grow and shrink as needed */
+    box-sizing: border-box;
+    size: 80%;
+}
+.image .img{
+    height: 100%;
+    width: 100%;
+    size: 30%;
+}
+}
+.review {
+    
+    
+    font-family: 'Courier New';
+}
+
+.review .h2 {
+    padding: 40px;
+}
+
+.review h3 {
+    font-size: 1.8rem;
+    color: #9b9090;
+}
+
+.review .author {
+    text-align: center;
+    font-style: italic;
+    color: #332d2d;
+}
+
+.review p {
+    text-align: center;
+    color: #1a1919;
+    text-indent: 10%;
+    font-size: x-large;
+}
+
+.review .rating {
+    font-weight: bold;
+    font-size:larger;
+    color: #9556a0;
+}
